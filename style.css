@@ -1,5 +1,6 @@
 body {
     font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
 }
 
 h1 {
@@ -18,6 +19,11 @@ section {
 
 section p {
     text-align: justify;
+}
+
+.upper {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 
 .half-width {
