@@ -12,7 +12,7 @@ h1 {
     color: rgba(19, 189, 132, 0.705);
 }
 
-section {
+.flexible-container {
     display: flex;
     /* text-align: justify; */
     margin-top: 50px;
@@ -50,4 +50,38 @@ section p {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.last {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    box-shadow: 10px 10px 10 px gray;
+}
+
+.last-item {
+    /* display: flex; */
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 25px;
+    background-color: rgba(144, 199, 199, 0.199);
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#web-devloper {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgba(24, 158, 175, 0.411), rgba(155, 27, 4, 0.623));
+    border-image-slice: 1;
+}
+
+#baby-web-devloper {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgba(175, 24, 24, 0.329), rgba(16, 185, 44, 0.493));
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
