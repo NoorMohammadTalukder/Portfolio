@@ -1,10 +1,40 @@
-body{
+body {
     font-family: 'Ubuntu', sans-serif;
 }
-h1{
+
+h1 {
     font-size: 40px;
     /* color: red; */
 }
-.orange{
+
+.orange {
     color: rgba(19, 189, 132, 0.705);
+}
+
+section {
+    display: flex;
+    /* text-align: justify; */
+}
+
+section p {
+    text-align: justify;
+}
+
+.half-width {
+    width: 50%;
+    padding: 5%;
+}
+
+.half-width img {
+    width: 70%;
+}
+
+.link-btn {
+    /* background-color: aquamarine; */
+    background-image: linear-gradient(rgba(9, 188, 194, 0.507), rgb(44, 12, 119));
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
 }
