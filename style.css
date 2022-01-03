@@ -1,0 +1,10 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-size: 40px;
+    /* color: red; */
+}
+.orange{
+    color: rgba(19, 189, 132, 0.705);
+}
